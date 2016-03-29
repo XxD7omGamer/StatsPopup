@@ -22,6 +22,6 @@ class Main extends PluginBase implements Listener{
 		$x = $player->getFloorX();
 		$y = $player->getFloorY();
 		$z = $player->getFloorZ();
-		$player->sendTip("\n\n•\n                                                 §3§l  §eSuper§cLG§r\n                                                 §e§lPlayers§a: §c".$pn."§2/§c".$px."§r\n                                                 §e§lCoins§a: §c".$this->economyapi->mymoney($name)."§r\n                                                 §e§lHealth§a: §c".$player->getHealth()."§2/§c".$player->getMaxHealth());
+		$player->sendTip("\n\n•\n                                                 §3§l  \n                                                 §e§lPlayers§a: §c".$pn."§2/§c".$px."§r\n                                                 §e§lCoins§a: §c".$this->economyapi->mymoney($name)."§r\n                                                 §e§lHealth§a: §c".$player->getHealth()."§2/§c".$player->getMaxHealth());
 	}
 }
