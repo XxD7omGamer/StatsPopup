@@ -1,0 +1,8 @@
+---
+name: StatsPopup
+main: StatsPopup\Main
+author: XxD7omGamer
+version: 1.6-Alpha
+api: 
+- 2.0.0
+- 1.13.0
