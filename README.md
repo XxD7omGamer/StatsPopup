@@ -1,2 +1,2 @@
-# •StatsPopup
-player stats
+# ●StatsPopup
+  •Soon Add Config ...
